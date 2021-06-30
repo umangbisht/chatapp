@@ -1,1 +1,1 @@
-web gunicorn --pythonpath chatproject mysite:mysite
+web gunicorn --pythonpath chatproject/mysite mysite.wsgi
