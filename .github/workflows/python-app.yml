@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
         git fetch --prune --unshallow
-    - uses: umangbisht/chatapp@v3.0.0
+    - uses: umangbisht/chatapp@master
       with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
