@@ -34,3 +34,5 @@ typing-extensions==3.10.0.0
 urllib3==1.26.6
 zope.interface==5.4.0
 gunicorn
+py-1.10.0
+pluggy-0.13.1
